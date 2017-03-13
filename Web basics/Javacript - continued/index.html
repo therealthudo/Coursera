@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Variable Javascripts</title>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<h1 id="number"
+	onclick="count();">
+</h1>
+</body>
+
+<script type="text/javascript">
+	var counter = 0;
+	$("#number").html(counter);
+
+/* Change the value of variable, we can do maths in variables
+	var new Counter = counter + 1; 
+	counter = counter + 1;
+	*/
+
+/* function to count */
+	function count(){
+		counter = counter + 1;
+		$("#number").html(counter);
+	}
+</script>

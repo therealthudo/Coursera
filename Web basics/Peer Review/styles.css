@@ -1,0 +1,10 @@
+h1 {
+	/* set the font color to be red */
+	color: red;
+
+	/* change the text alignment to be right */
+	text-align: right;
+
+	/* put a line through the text */
+	text-decoration: line-through;
+}

@@ -1,0 +1,49 @@
+@media (min-width:750px) {
+	body{
+		background: red;
+	}
+	.responsive {
+		display: inline-block;
+		width:200px;
+		border:1px solid black;
+	}
+}
+
+@media (min-width:1000px) {
+	body{
+		background: yellow;
+	}
+	.responsive {
+		display: inline-block;
+		width:500px;
+		border:1px solid black;
+	}
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover{
+	color:black;
+	background:yellow;
+}
+
+.green_link:hover{
+	color: green;
+	background:white;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 30pt;
+}
+
+.indent {
+	margin-left: 10px;
+}
+
+.gap_below {
+	margin-bottom: 10px;
+}

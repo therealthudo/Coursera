@@ -1,0 +1,16 @@
+.album_cover {
+	width:25%;
+	border:20px solid black;
+}
+
+.photos {
+	width:100%;
+	border:5px solid green;
+	max-height: 200px;
+	padding: 10px;
+}
+
+.single_photo {
+	width:75%;
+
+}

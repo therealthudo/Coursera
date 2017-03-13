@@ -1,0 +1,12 @@
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+}
+
+.large-img{
+  max-width:100%;
+}
+
+h3{
+	color:purple;
+}

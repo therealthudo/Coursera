@@ -1,0 +1,102 @@
+<html>
+	<!-- start of head section -->
+	<head>
+		<title>Graffiti NYC</title>
+
+		<!-- import bootstrap -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="bootstrap.css"
+		      />
+
+		<!-- import our own stylesheet -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="style.css"
+		      />	
+
+		<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		
+		<!-- import Javascript -->
+		<script type="text/javascript" src="script.js"> </script>	
+	</head>
+
+	<!-- start of body section-->
+	<body>
+		
+		<!--navigation on the left-->
+		<div class="row">
+			<div class="col-md-2" id="navigation">
+				<a href="index.html">
+					THE COLLECTION
+				</a>
+				
+				<hr>
+				
+				<a id="alert"
+					onclick="alert('Hello, My name is Thu and I am a designer in NYC. Hope you enjoyed your visit.');">
+					ABOUT ME
+				</a>
+				
+				<hr>
+				
+				<div>
+					<button id="backward">&lt; Previous</button>	
+				</div>
+
+				<div>
+					<button id="forward">Next &gt;</button>	
+				</div>
+
+				</br>
+
+			</div>
+		
+		<!--page header on the right-->
+			<div class="col-md-10">
+					<h1>
+						Inspirations from the Streets of New York City
+					</h1>
+			
+			<!--start of collection-->
+				<div class="col-md-6">
+					<p id="big-text">Every day, artists in New York poured out their hearts and souls to create these masterpieces. Risking persecutions, these artists hope to bring arts to the masses, to the street where they belong. Here's a tribute to the extraordinary creativity and passion of NYC graffiti artists. <span style="font-style: italic"> (I'm just a photographer. These works are not my own.)</span> </p>
+					
+
+					<div>
+						<image class="thumbnail-image" id="image1" src="images/image_1.jpg" alt="Graffiti Lower East Side" />
+					</div>
+					
+					<div>
+						<image class="thumbnail-image" id="image2" src="images/image_2.jpg" alt="Graffiti Soho" />
+					</div>
+					
+					<div>
+						<image class="thumbnail-image" id="image3" src="images/image_3.jpg" alt="Graffiti Midtown" />
+					</div>
+
+					<div>
+						<image class="thumbnail-image" id="image4" src="images/image_4.jpg" alt="Graffiti Chinatown" />
+					</div>
+			
+					<div>
+						<image class="thumbnail-image" id="image5" src="images/image_5.jpg" alt="Graffiti East Village" />
+					</div>
+
+					<div>
+						<image class="thumbnail-image" id="image6" src="images/image_6.jpg" alt="Graffiti Noho" />
+					</div>
+				
+				</div>
+				
+				<div class="col-md-4">
+					<img id="big-image" class="large-image" src="images/image_1.jpg" alt="Lower East Side"/>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>

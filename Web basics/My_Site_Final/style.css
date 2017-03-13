@@ -1,0 +1,61 @@
+#navigation{
+	margin-top: 25px;
+}
+
+a{
+	color: grey;
+	font-family: san-serif, Helvetica, Arial;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 0 0 10px;
+	padding: 5px;
+}
+
+a:hover{
+	text-decoration: none;
+	background-color: yellow;	
+}
+
+a:visited, a:active {
+	background-color: yellow;
+}
+
+h1{
+	margin: 20px 0 25px 15px;
+}
+
+p{
+	padding: 0px;
+}
+
+#big-image{
+	max-height: 100%;
+	max-width: 300px;
+}
+
+.thumbnail-image{
+	max-height: 200px;
+	max-width: 100%;
+	float:left;
+	padding: 20px;
+}
+
+button{
+	margin-left: 10px;
+}
+
+#backward{
+	background: black;
+	color: white;
+	padding: 5px;
+	float: left;
+	margin-bottom: 0 0 30px 10px;
+}
+
+#forward{
+	background: black;
+	color: white;
+	padding: 5px;
+	float: right;
+	margin-bottom: 30px;
+}
