@@ -1,1 +1,2 @@
-This is my Coursera repo
+This is my Coursera repo.
+I'm adding a new line.
